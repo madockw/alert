@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <title>SAYONARA</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <div id="back">
+    <div id="syori1" class="box1 opa"></div>
+    <div id="syori2" class="box1 opa"></div>
+    <div id="syori3" class="box1 opa"></div>
+    <div id="syori4" class="box1 opa"></div>
+    <div id="syori5" class="box1 opa"></div>
+    <div id="syori6" class="box1 opa"></div>
+    <div id="syori7" class="box1 opa"></div>
+    <div id="syori8" class="box1 opa"></div>
+    <div id="syori9" class="box1 opa"></div>
+  </div>
+    <script type="text/javascript">
+    window.addEventListener('load',() => {
+      alert('ウイルスを感知しました\n直ちにシャットダウンしてください')
+      alert('デバイスのバックアップのデータを消去しています')
+      alert('登録されている連絡先wo消去しています')
+      alert('消去したデータをhttps://wingames.jpにアップロードしています       残り86%')
+      alert('アップロードが完了しました')
+    });
+
+    window.setTimeout(function(){
+      document.getElementById('syori1').classList.remove('opa');
+    }, 16000);
+    window.setTimeout(function(){
+      document.getElementById('syori2').classList.remove('opa');
+    }, 17500);
+    window.setTimeout(function(){
+      document.getElementById('syori3').classList.remove('opa');
+    }, 19000);
+    window.setTimeout(function(){
+      document.getElementById('syori4').classList.remove('opa');
+    }, 22000);
+    window.setTimeout(function(){
+      document.getElementById('syori5').classList.remove('opa');
+    }, 23000);
+    window.setTimeout(function(){
+      document.getElementById('syori6').classList.remove('opa');
+    }, 24000);
+    window.setTimeout(function(){
+      document.getElementById('syori7').classList.remove('opa');
+    }, 24800);
+    window.setTimeout(function(){
+      document.getElementById('syori8').classList.remove('opa');
+    }, 25600);
+    window.setTimeout(function(){
+      document.getElementById('syori9').classList.remove('opa');
+    }, 26200);
+
+    function no_scroll() {
+      // PCでのスクロール禁止
+      document.addEventListener("mousewheel", scroll_control, { passive: false });
+      // スマホでのタッチ操作でのスクロール禁止
+      document.addEventListener("touchmove", scroll_control, { passive: false });
+    }
+    // スクロール関連メソッド
+    function scroll_control(event) {
+        event.preventDefault();
+    }
+    </script>
+  </body>
+</html>
